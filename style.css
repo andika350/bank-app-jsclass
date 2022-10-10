@@ -1,14 +1,63 @@
 body {
+  font-family: Arial, Helvetica, sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 100vh;
   margin: 0;
-  background-color: rgb(95, 95, 95);
+  background: url(https://images.unsplash.com/photo-1574288061782-da2d3f79a72e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .container {
-  display: block;
   width: 100%;
   max-width: 400px;
-  background-color: rgb(77, 77, 253);
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+  padding: 18px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  padding: 8px 15px;
+  width: 100%;
+  max-width: 200px;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  margin: 14px;
+  padding: 10px 15px;
+  width: 100%;
+  max-width: 100px;
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.7;
+}
+
+button:active {
+  transform: translateY(2px);
 }
